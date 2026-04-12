@@ -1,0 +1,40 @@
+Data Pipeline
+
+Drop 'car' column
+'car' was drop due too many missing values
+
+Drop 'occupation' column 
+'occupation' was drop because
+-has too many unique categorical values
+-to prevent curse of dimensionality where feature space become large when i use One-hot Encoding
+-due to personal reason because i think occupation features may be weak influence to driver's decision to accept coupons
+
+Fill the missing categorical value by using mode imputation. This method is used because all of these features is categorical data, statistical measures such as mean and median cant be applied to categorical values
+'Bar', 'CoffeeHouse', 'CarryAway', 'RestaurantLessThan20', 'Restaurant20to50' 
+
+Data splitting = 80:20 (stratified) 
+-split is done first to avoid data leakage when processing
+
+Encoding categorical values for non ordinal variables (One-hot Encoding)
+destination
+passanger
+weather
+time
+coupon
+expiration
+gender
+maritalStatus
+
+Encoding categorical values for ordinal variables (Label encoding)
+temperature (excluded because already in order)
+age
+education
+income
+Bar
+CoffeeHouse
+CarryAway
+RestaurantLessThan20
+Restaurant20to50
+
+Feature Selection
+-using chi-square feature selection because most of the variables are categorical (good because many features are encoded)
