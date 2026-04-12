@@ -1,7 +1,7 @@
 Group 1 - KD34403 (Machine Learning for Data Science)
 
 Members: 
-Muhammad Zulaizat Irfan Bin Hassan Basri (Bi23110389)
+Muhammad Zulaizat Irfan Bin Hassan Basri (BI23110389)
 Rival Bin Abd Rashid (BI23110388)
 Tekken Ooi (BI23110184)
 Mohammad Nur Shamir bin Affandi (BI23110189)
